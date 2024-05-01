@@ -16,27 +16,28 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
+import image from "../images/fondo.jpg";
 
-const imageAltText = "purple and blue abstract background";
+const imageAltText = "Foto de <a href="https://unsplash.com/es/@alinnnaaaa?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Alina Grubnyak</a> en <a href="https://unsplash.com/es/fotos/fotografia-de-angulo-bajo-de-estructura-metalica-ZiQkhI7417A?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+";
 
 /**
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "Hallo 🦾 ✨, i’m passionate about artificial intelligence and currently pursuing a bachelor’s degree in bionic engineering in Mexico City.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "AI",
+  "Deep learning",
+  "Machine learning",
+  "Azure AI",
+  "Google Cloud",
+  "Python",
 ];
 
 /**
@@ -45,7 +46,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "I always strive to give my best in every project, and I never cease to learn.";
 
 const About = () => {
   return (
